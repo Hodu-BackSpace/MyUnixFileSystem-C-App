@@ -13,6 +13,7 @@ img plz
 ### Header
 
 ```C
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -72,10 +73,12 @@ struct dtree *back = NULL;
 struct dtree *back2 = NULL;
 struct dtree *back3 = NULL;
 struct dtree *back4 = NULL;
+
 ```
 
 ### Function
 ```C
+
 void prompt(char [], char [],char [],char []);
 void command(char [], char [],char [],char []);
 int i_bit_check();
@@ -126,4 +129,5 @@ void myshowfile(char [],char [],char []);
 void myrm(char []);
 void myrm_func(char []);
 void myrm_func2(char [],int);
+
 ```
