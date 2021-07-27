@@ -1,7 +1,9 @@
 # MyUnixFileSystem-C-App
 Implement My Own Unix File System on C like Real Unix File System (Inode, Linking ...)
 
-## Overview Code
+## Overview Code 
+
+### Header
 
 ```C
 #include <stdio.h>
@@ -55,6 +57,18 @@ struct btree{
 
 };
 
+struct my_file_system *mfs;
+
+struct dtree *D=NULL;
+struct dtree *cur = NULL;
+struct dtree *back = NULL;
+struct dtree *back2 = NULL;
+struct dtree *back3 = NULL;
+struct dtree *back4 = NULL;
+```
+
+### Function
+```C
 void prompt(char [], char [],char [],char []);
 void command(char [], char [],char [],char []);
 int i_bit_check();
@@ -105,13 +119,4 @@ void myshowfile(char [],char [],char []);
 void myrm(char []);
 void myrm_func(char []);
 void myrm_func2(char [],int);
-
-struct my_file_system *mfs;
-
-struct dtree *D=NULL;
-struct dtree *cur = NULL;
-struct dtree *back = NULL;
-struct dtree *back2 = NULL;
-struct dtree *back3 = NULL;
-struct dtree *back4 = NULL;
 ```
