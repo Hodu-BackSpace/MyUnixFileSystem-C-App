@@ -1,6 +1,12 @@
 # MyUnixFileSystem-C-App
 Implement My Own Unix File System on C like Real Unix File System (Inode, Linking ...)
 
+## Unix File System Structure
+
+
+<img width="610" alt="filesystem_layout" src="https://user-images.githubusercontent.com/88016041/127090993-b245e40e-b3ea-4005-b062-6bee768e3590.png">
+
+
 ## Overview Code 
 
 ### Header
