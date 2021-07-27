@@ -3,8 +3,8 @@ Implement My Own Unix File System on C like Real Unix File System (Inode, Linkin
 
 ## Unix File System Structure
 
+![inodeblock](https://user-images.githubusercontent.com/88016041/127091139-0ef96984-1bc1-426a-b2a3-978131033523.gif)
 
-![inode block](https://user-images.githubusercontent.com/88016041/127091099-f38f267e-052c-4626-9a1e-0047d086148b.gif)
 
 
 
